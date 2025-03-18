@@ -27,15 +27,15 @@ let favCities = ["Newyork","LasVegas","Paris","Miami","Chicago"];
 
 //Use forEach( ) to log each city name to the console in uppercase
 favCities.forEach(city => {
-console.log(city);   //log output
+console.log(city.toUpperCase());   //log output
 });
 
 //displays output
-// Newyork
-//LasVegas
-//Paris
-//Miami
-//Chicago
+//NEWYORK
+//LASVEGAS
+//PARIS
+//MIAMI
+//CHICAGO
 
 //Task 2: Transforming with map()
 //create an array of numbers 1 to 5
